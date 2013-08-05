@@ -3,7 +3,6 @@ require 'spec_helper'
 describe "Static pages" do
   
   subject {page} 
-  let(:base_title) {"Ruby on Rails Tutorial Sample App"}   
 
   describe "Home page" do
     before { visit root_path } 
